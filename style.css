@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+     /* main container */
+     
+.container{
+    background-color: #9ca8af;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone{
+    background-color:#fff;
+    width: 30%;
+    border-radius: 10px;
+    height: 80%;
+}
+
+.wrapper{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrapper p{
+    font-size: 30px;
+}
+
+
+.dialer{
+    padding: 10px;
+    width: 100%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,130px);
+    text-align: center;
+}
+
+.dialer .key{
+    margin: 2px;
+    padding: 2px;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+.dialer .key:active{
+    color: #fff;
+    background-color: #90ee90;
+}
+
+.key.num{
+    font-size: 30px;
+}
+
+
+
+.buttons{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttons .same{
+    width: 25%;
+    padding:20px 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+    transition: all ease-in-out 0.4s;
+}
+
+.buttons .same:active{
+    background-color:#2f4f4f ;
+}
+
+
+.buttons .call{
+    cursor: pointer;
+    text-align: center;
+    width: 35%;
+    color: #ffffff;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    background-color: #008000;
+    transition: all 0.5s ease-in-out;
+}
+
+.buttons .call:active i{
+    transform: scale(0.9s);
+}
+

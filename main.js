@@ -1,8 +1,8 @@
-// NOTE : This Dialer is designed to take only 12 digits.
 
 
 
-const digit = document.querySelectorAll(".digit"); // Gets all the tags with classname as 'digit'
+
+const digit = document.querySelectorAll(".key"); // Gets all the tags with classname as 'key'
 let number = document.querySelector(".number"); // gets the tag with classname 'number'
 let toBeDialed = number.innerText; // Get the InnerText of the number tag.
 let lengthDial = 0; // PreSet value for Length of the Number to be dialed.
